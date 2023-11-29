@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BBS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Select your choice!!</h1>
+    <button class="img-button" onclick="showResult('BAT')"><img src="Images/bat.png" alt="BatImage"></button>
+    <button class="img-button" onclick="showResult('BALL')"><img src="Images/ball.png" alt="BallImage"></button>
+    <button class="img-button" onclick="showResult('STUMP')"><img src="Images/stump.png" alt="StumpImage"></button>
+    <h3 id="user-choice"></h3>
+    <h3 id="computer-choice"></h3>
+    <h3 id="winner"></h3>
+    <h3 id="score"></h3>
+    <button onclick= "localStorage.clear();updateState();">RESET SCORE</button>
+   
+    <script src="script.js"></script>
+</body>
+</html>

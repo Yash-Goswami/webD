@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset = "utf-8">
+    <title>Forms2</title>
+    <link rel="stylesheet" type="text/css" href="css/External.css">
+    <style>
+        p{
+            color:darkorange
+        }
+    </style>
+<!--    internal css has higher priority hence external css won't be applied on paragraph tag-->
+</head>
+<body> 
+
+    <form method="get">
+        <label for="address" style="color:blueviolet; font-size:200%">Address:</label>
+        <input type="text" placeholder="Address" size=50px name="address" id="address" maxlength="100px"> <br>       
+        <label for="postcode" style="color:brown; font-size:150%">Postcode:</label>
+        <input type="text" placeholder="Postcode" size=50px name="postcode" id="postcode">    <br>    
+        
+        <label for="city" style="color:deeppink; font-size:130%">City:</label>
+        <input type="text" placeholder="City" size=50px name="city" id="city">    <br>
+        
+        <p>Choose your shipping method:</p>
+        
+        <select name="shipping" id="shipping">
+            <option value="Free shipping">Free super saver shipping</option>
+            <option value="Two-Days shipping">Tow-day shipping</option>
+            <option value="One-Day shipping">One-Day shipping</option>
+        </select>
+        <br>
+        <p>Choose your payment method</p>
+        <label>Paypal</label>
+        <input type="radio" name="payment" value="Paypal">
+        <label>Debit Card</label>
+        <input type="radio" name="payment" value="Debit Card">
+        <label>Credit Card</label>
+        <input type="radio" name="payment" value="Credit Card">
+        <label>Gpay</label>
+        <input type="radio" name="payment" value="Gpay">
+        <br>
+        <label for="Review">Review:</label>
+        <textarea rows=5 cols=40 maxlength="200" placeholder="Enter your Review here" id="Review" name="Review text"></textarea>
+        <br>
+        <label for="chbox1">Sign me up for email updates</label>
+        <input type="checkbox" id="chbox1" checked="checked" name="email update">
+        <br>
+        <label for="chbox2">Securely save my payment details</label>
+        <input type="checkbox" id="chbox2" checked="checked" name="save payment">
+        <br>
+        <input type=submit>
+    </form>
+    
+    <br><br><br>
+    <a href="11.Forms.html">  Prev</a>
+    <a href="13.TextDecorator.html">  Next</a>
+
+    <br><br><br>
+    <p>All rigts reserved &copy;Yash Goswami</p>
+</body>
+
+</html>
+        

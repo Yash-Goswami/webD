@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+.js-odd{
+    background-color: brown;
+}
+.js-even{
+    background-color: palevioletred;
+}
+
+#btn{
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+    cursor:pointer;
+}

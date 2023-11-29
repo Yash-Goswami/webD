@@ -1,0 +1,29 @@
+body{
+    max-width: max-content;
+    margin: auto;
+}
+
+#Calculator{
+    border:2px solid rgb(194, 26, 26);
+    width:200px;
+    border-radius: 20px;
+    background-color: rgb(172, 224, 192);
+}
+
+#display{
+    width:85%;
+    font-size:30px;
+    margin:10px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width:50px;
+    height:50px;
+    margin:5px;
+}

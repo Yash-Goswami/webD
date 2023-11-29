@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(120, 114, 105);
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    margin:10px;
+}
+
+button{
+    cursor:pointer;
+    caret-color:aqua;
+}
+
+.img-button{
+    border-radius: 150px;
+    border-style: none;
+    background-color: rgb(136, 127, 255);
+    margin: 10px;
+}

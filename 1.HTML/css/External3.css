@@ -1,0 +1,57 @@
+.block1{
+    background-color: #4867AA;
+    color:white;
+    height:50px;
+    width:100px;
+    padding: 16px;
+    border: 20px pink ridge ;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-align: center;
+/*    transform: rotateX(180deg);*/
+    transition: width 2s;
+}
+
+.block1:hover{
+    width:200px;
+}
+
+.block2{
+    background:linear-gradient(to top,green ,white,orange);
+    height:auto;
+    width:auto;
+    padding: 40px 10px;
+    border-width: 20px 15px 10px 25px;
+    border-color: red blue pink yellow;
+    border-style: groove;
+    border-radius: 50px;
+    letter-spacing:10px;
+    font-size: 50px;
+}
+
+.block3{
+    background-color: black;
+    color:red;
+    height:60px;
+    width:60px;
+    border-width: 30px 30px;
+    border-style: double;
+    border-color: darkgreen cadetblue;
+    border-radius: 60px;
+    text-align: center;
+    transition: transform 2s;
+}
+
+.block3:hover{
+    transform: rotateX(180deg);
+/*    transform: rotateY(180deg);*/
+}
+
+#span1{
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+/*so we can give color name or color code(hex code using #) or rgb values  for setting color*/

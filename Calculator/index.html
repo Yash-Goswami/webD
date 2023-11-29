@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Calculator" style="align-items: center;">
+        <input type=text id="display" readonly>
+        <div id="button-container">
+            <button onclick="displayValue+=1;show();">1</button>
+            <button onclick="displayValue+=2;show();">2</button>
+            <button onclick="displayValue+=3;show();">3</button>
+            <button onclick="displayValue+=4;show();">4</button>
+            <button onclick="displayValue+=5;show();">5</button>
+            <button onclick="displayValue+=6;show();">6</button>
+            <button onclick="displayValue+=7;show();">7</button>
+            <button onclick="displayValue+=8;show();">8</button>
+            <button onclick="displayValue+=9;show();">9</button>
+            <button onclick="displayValue+='+';show();">+</button>
+            <button onclick="displayValue+=0;show();">0</button>
+            <button onclick="displayValue+='-';show();">-</button>
+            <button onclick="displayValue+='*';show();">*</button>
+            <button onclick="displayValue+='%';show();">%</button>
+            <button onclick="displayValue+='/';show();">/</button>
+            <button onclick="displayValue='';show();">C</button>
+            <button onclick="displayValue=eval(displayValue);show();">=</button>
+        </div>
+
+        <script>
+            let displayValue=``;
+            show();
+            function show(){
+                document.body.querySelector('#display').value=displayValue;   
+            }
+        </script>
+    </div>
+</body>
+</html>
